@@ -1,0 +1,7 @@
+const input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
+console.log(Number(input[0])+Number(input[1]));
+console.log(Number(input[0])-Number(input[1]));
+console.log(Number(input[0])*Number(input[1]));
+console.log(Math.floor(input[0]/Number(input[1])));
+console.log(Number(input[0])%Number(input[1]));
+
