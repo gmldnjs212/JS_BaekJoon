@@ -4,7 +4,7 @@ let hour = Number(now[0])
 let min = Number(now[1])
 let cost = Number(input[1])
 
-if (min+cost>60){
+if (min+cost>=60){
   hour += Math.floor((min+cost)/60)
   min = (min+cost)%60
   if (hour>=24){
